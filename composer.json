@@ -20,5 +20,12 @@
             "email": "developer.amit.php@gmail.com"
         }
     ],
+	 "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/amitphpdeveloper/composer-M2-Module.git"
+        }
+    ],
+    
  
 }
