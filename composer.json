@@ -2,23 +2,23 @@
     "name": "acmewidgets/module-productpromoter",
     "description": "Sample Magento 2 module",
     "type": "magento2-module",
-	 "version": "0.1.0",
+	"version": "0.1.0",
     "require": {
-       "magento/project-community-edition": "*"
-    },
-	"extra": {
-        "map": [
-            [
-                "*",
-                "AcmeWidgets/ProductPromoter/"
-            ]
-        ]
-    },
-   "authors": [
+		"magento/framework": "100.*|101.*"   
+	},
+	"autoload": {
+        "files": [ 
+            "registration.php" 
+        ],
+        "psr-4": {
+            "AcmeWidgets\\ProductPromoter\\": ""
+        }
+	},
+	"authors": [
         {
             "name": "Amit solanki",
             "email": "developer.amit.php@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+ 
 }
