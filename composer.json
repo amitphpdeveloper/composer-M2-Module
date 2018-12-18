@@ -20,6 +20,7 @@
             "email": "developer.amit.php@gmail.com"
         }
     ],
+	"minimum-stability": "stable",
 	 "repositories": [
         {
             "type": "vcs",
