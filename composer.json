@@ -22,10 +22,8 @@
     ],
 	 "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/amitphpdeveloper/composer-M2-Module.git"
         }
-    ],
-    
- 
+    ]
 }
